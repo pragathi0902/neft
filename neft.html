@@ -1,0 +1,99 @@
+<html>
+	<body>
+	<h2>Within SBI-Accounts of others</h2>
+	<h5><i>Mandatory fields are marked with an asterisk(*)</i></h5>
+	<h4>Select the account from which you wish to transfer funds</h4>
+	<table cellpadding="10" cellspacing="10">
+		<tr>
+			<th scope="col">Account No./Nick Name</th><br><br>
+			<th scope="col">Account Type</th>
+			<th scope="col">Branch</th>
+			<th scope="col">Balance</th>
+		</tr>
+	</table>
+	<hr>
+	<table cellpadding="10" cellspacing="10">
+		<tr>
+			<td>0000002031247xxxx</td>
+			<td>Savings account</td>
+			<td>Bhagalpur</td>
+			<td>3,024.42</td>
+		</tr>
+		
+	
+	</table>
+	<form>
+			<label>	Selected Account Number </label><br><br>
+			<label>Amount*</label>
+			<input type="text" id="num" name="num" required> <br><br>click here to add a new intra-bank beneficiary<br><br>
+			<label>Purpose*</label>
+			<select>
+				<option>--Select purpose--</option>
+				<option>business</option>
+				<option>personal</option>
+				<option>others</option>
+			</select>
+	
+	</form>
+	<h3>Select the intra-bank beneficiary account</h3>
+		<table cellpadding="10" cellspacing="10">
+		<tr>
+			<th scope="col">Account No</th><br><br>
+			<th scope="col">Intra-Bank Beneficiary Name</th>
+			<th scope="col">Branch</th>
+			<th scope="col">Limit</th>
+			
+		</tr>
+	</table>
+	<hr>
+	<form>
+		<table cellpadding="10" cellspacing="10">
+		<tr>
+			<td><input type="radio" id="num" name="num">0000002000665xxxx</td>
+			<td>Ranjan</td>
+			<td>Exhibition road</td>
+			<td>100000</td>
+			<td><input type="submit" value="charge"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" id="num" name="num">0000002011554xxxx</td>
+			<td>Kumar</td>
+			<td>Bhagalpur</td>
+			<td>10000</td>
+			<td><input type="submit" value="charge"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" id="num" name="num">0000003287936xxxx</td>
+			<td>Kumari</td>
+			<td>DESRI</td>
+			<td>25000</td>
+			<td><input type="submit" value="charge"></td>
+		</tr>
+		<tr>
+			<td><input type="radio" id="num" name="num">0000002012128xxxx</td>
+			<td>SEN</td>
+			<td>PBB SALT LAKE</td>
+			<td>10000</td>
+			<td><input type="submit" value="charge"></td>
+		</tr>
+	
+	</table>
+		
+	</form>
+	<h3>Select Payment option</h3>
+	<form>
+		<label>Payment options*</label>
+		<input type="radio" id="pay" name="pay">Pay now
+		<input type="radio" id="pay" name="pay">Schedule later
+		<input type="radio" id="pay" name="pay">Standing instructions
+		
+		
+	</form>
+	<p>Please note beneficiary account number will only be used for electronic fund transfer (please ensure correctness) the beneficiary name provided will not be considered for electronic fund transfer as per RBI guidelines</p>
+	<form>
+		<input type="submit" value="submit">
+		<input type="reset" value="cancel">
+	
+	</form>
+	</body>
+</html>
